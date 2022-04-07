@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main -to print text
+ * main - entry point
  * Return- 1
 */
 int main(void)

@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- *main code
+ *main-to print text
+ *Return- 1
 */
 int main()
 {

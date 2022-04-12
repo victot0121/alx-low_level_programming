@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * main - To print _putchar
+ * _islower - checks for lowercase
+ * @c: c is an ascii character
  *
- * Return: 0 (Success)
+ * Return: 1 if lowercase
  */
 
-int main(void)
+int _islower(int c)
 {
-	char text[9] = "_putchar";
-	int i = 0;
-
-	for (i = 0; i < 8; i++)
+	if (c >= 'a' && c <= 'z')
 	{
-		_putchar(text[i]);
+		return (1);
 	}
-	_putchar('\n');
-
-	return (0);
-
+	else
+	{
+		return (0);
+	}
 }
